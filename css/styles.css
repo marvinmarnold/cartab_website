@@ -256,7 +256,7 @@ a:hover {
 
 
 /* START: ABOUT SECTION*/
-#about .container, #work .container, #team .container, #contact .container {
+#about .container, #partners .container, #team .container, #contact .container {
     background-color: rgba(255, 255, 255, 1);
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -287,10 +287,10 @@ a:hover {
 }
 /* END: HOME SECTION*/
 
-/* START: SERVICES SECTION*/
-#services {
+/* START: FEATURES SECTION*/
+#features {
     height: auto;
-    background: url('../images/services.jpg') no-repeat;
+    background: url('../images/features.jpg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -299,62 +299,62 @@ a:hover {
     background-position: 0 -300px;
 }
 
-#services .container {
+#features .container {
     background-color: rgba(255, 255, 255, 0.75);
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
 }
 
-#services .desc h2 {
+#features .desc h2 {
     margin-top: 0px;
 }
 
-#services .desc p {
+#features .desc p {
     margin-bottom: 20px;
 }
 
-#services .article h3{
+#features .article h3{
     margin-top: 0px;
     font-weight: 700;
 }
 
-#services .article p {
+#features .article p {
     margin-bottom: 50px;
 }
 
-#services .article ul li {
+#features .article ul li {
     margin-bottom: 10px;
 }
 
-#services .article ul li:last-child {
+#features .article ul li:last-child {
     margin-bottom: 30px;
 }
-/* END: SERVICES SECTION*/
+/* END: FEATURES SECTION*/
 
-/* START: WORK SECTION*/
-#work .container {
+/* START: PARTNERS SECTION*/
+#partners .container {
     background-color: rgba(255, 255, 255, 1);
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
 }
 
-#work .desc h2 {
+#partners .desc h2 {
     margin-top: 0px;
 }
 
-#work .desc p {
+#partners .desc p {
     margin-bottom: 10px;
 }
 
-#work #filters {
+#partners #filters {
     width: 100%;
     margin: 20px auto 30px auto;
     background-color: #f5f5f5;
 }
 
-#work #filters li {
+#partners #filters li {
     font-size: 18px;
     line-height: 30px;
     cursor: pointer;
@@ -362,60 +362,25 @@ a:hover {
     min-width: 120px;
 }
 
-#work #filters li.active {
+#partners #filters li.active {
     background-color: #fff;
     color: #ff6419;
 }
 
-#work #gallery {
+#partners #gallery {
     padding: 0;
 }
 
-#work #gallery li div {
+#partners #gallery li div {
     margin-bottom: 30px;
 }
 
-#work #gallery .mix{
+#partners #gallery .mix{
     opacity: 0;
     display: none;
 }
-/* END: WORK SECTION*/
+/* END: PARTNERS SECTION*/
 
-/* START: CLIENTS SECTION*/
-#clients {
-    height: auto;
-    background: url('../images/clients.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-#clients .container {
-    background-color: rgba(40, 30, 20, 0.75);
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
-    color: #fff;
-}
-
-#clients .desc h2 {
-    margin-top: 0px;
-}
-
-#clients .desc p {
-    margin-bottom: 50px;
-}
-
-#clients .statement div h4 {
-    margin-top: 0px;
-}
-
-#clients .statement div p {
-    margin-bottom: 30px;
-}
-/* END: CLIENTS SECTION*/
 
 /* START: TEAM SECTION*/
 #team .desc h2 {
